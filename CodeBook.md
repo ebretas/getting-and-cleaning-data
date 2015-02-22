@@ -12,14 +12,14 @@
 
 activity  
         Type of activity performed on each observation  
-        1. WALKING
-        2. WALKING_UPSTAIRS
-        3. WALKING_DOWNSTAIRS
-        4. SITTING
-        5. STANDING
-        6. LAYING			
+        1. WALKING  
+        2. WALKING_UPSTAIRS  
+        3. WALKING_DOWNSTAIRS  
+        4. SITTING  
+        5. STANDING  
+        6. LAYING  
 
-subject
+subject  
         Person who were volunteers to the experiment and performed one activity on each observation.  
         1..30 .Unique identifiers assigned to the volunteers.  
 			

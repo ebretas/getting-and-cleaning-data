@@ -1,31 +1,31 @@
-Johns Hopkins Bloomberg School of Public Health
-Data Science Specialization
-Course: Getting and Cleaning Data
-Course Project Code Book
+#Johns Hopkins Bloomberg School of Public Health
+#Data Science Specialization
+#Course: Getting and Cleaning Data
+#Course Project Code Book
 
 
-Variables
+##Variables
 
 
-Identifier variables:
+###Identifier variables:
 
-activity
-			Type of activity performed on each observation
-			1.	WALKING
-			2.	WALKING_UPSTAIRS
-			3.	WALKING_DOWNSTAIRS
-			4.	SITTING
-			5.	STANDING
-			6.	LAYING			
+activity  
+        Type of activity performed on each observation  
+        1. WALKING
+        2. WALKING_UPSTAIRS
+        3. WALKING_DOWNSTAIRS
+        4. SITTING
+        5. STANDING
+        6. LAYING			
 
 subject
-			Person who were volunteers to the experiment and performed one activity on each observation.
-			1..30 .Unique identifiers assigned to the volunteers.
+        Person who were volunteers to the experiment and performed one activity on each observation.
+        1..30 .Unique identifiers assigned to the volunteers.
 			
-Measurement variables:			
-			Measurements (features) from Samsung Galaxy S II embedded   accelerometer and gyroscope.  
-			The values are normalized and bounded within [-1,1].  
-			Each variable represents the mean value of the original measurements.  
+###Measurement variables:			
+        Measurements (features) from Samsung Galaxy S II embedded   accelerometer and gyroscope.  
+        The values are normalized and bounded within [-1,1].  
+        Each variable represents the mean value of the original measurements.  
 
 tBodyAcc-mean()-X          
 tBodyAcc-mean()-Y          
@@ -95,7 +95,7 @@ fBodyBodyGyroJerkMag-mean()
 fBodyBodyGyroJerkMag-std() 
 
 
-The Data Set
+##The Data Set
 
 The data set "Human Activity Recognition Using Smartphones Data Set" was generated at the University of California, Irvine.
 Link to the data set: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
@@ -104,7 +104,7 @@ Data Set Information:
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
-Work
+##Work
 
 The goal was to prepare a tidy data set that can be used for later analysis, containing the average of each selected variable for each activity and each subject.
 
@@ -118,5 +118,5 @@ After that, these two data frames had it's observations bound in one single inte
 The descriptive informations about features (measurements) and activities was loaded and added to the single intermediate data frame.
 
 The final data frame was created reshaping the intermediate data frame.
-Each row (observation) represents an aggregation (using the mean) of all occurrences of one type of activity performed by one specific subject. The final data frame was saved in the file "tidy_data.txt".
+Each row (observation) represents an aggregation (using the mean) of all occurrences of one type of activity performed by one specific subject. The final data frame was saved in the file **"tidy_data.txt"**.
 

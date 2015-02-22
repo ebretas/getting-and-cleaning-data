@@ -11,21 +11,21 @@ Identifier variables:
 
 activity
 			Type of activity performed on each observation
-			1	WALKING
-			2	WALKING_UPSTAIRS
-			3	WALKING_DOWNSTAIRS
-			4	SITTING
-			5	STANDING
-			6	LAYING			
+			1.	WALKING
+			2.	WALKING_UPSTAIRS
+			3.	WALKING_DOWNSTAIRS
+			4.	SITTING
+			5.	STANDING
+			6.	LAYING			
 
 subject
 			Person who were volunteers to the experiment and performed one activity on each observation.
 			1..30 .Unique identifiers assigned to the volunteers.
 			
 Measurement variables:			
-			Measurements (features) from Samsung Galaxy S II embedded accelerometer and gyroscope.
-			The values are normalized and bounded within [-1,1].
-			Each variable represents the mean value of the original measurements.
+			Measurements (features) from Samsung Galaxy S II embedded   accelerometer and gyroscope.  
+			The values are normalized and bounded within [-1,1].  
+			Each variable represents the mean value of the original measurements.  
 
 tBodyAcc-mean()-X          
 tBodyAcc-mean()-Y          

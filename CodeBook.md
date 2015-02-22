@@ -1,11 +1,12 @@
-##Code Book
 ####Johns Hopkins Bloomberg School of Public Health
 ####Data Science Specialization
 ####Course: Getting and Cleaning Data
 ####Assignment: Course Project
 
 
-##Variables
+##Code Book
+
+###Variables
 
 
 #####Identifier variables:
@@ -99,7 +100,7 @@ fBodyBodyGyroJerkMag-mean()
 fBodyBodyGyroJerkMag-std() 
 
 
-##The Data Set
+##Study design
 
 The data set "Human Activity Recognition Using Smartphones Data Set" was generated at the University of California, Irvine.
 Link to the data set: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones

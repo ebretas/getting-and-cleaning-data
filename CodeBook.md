@@ -1,8 +1,8 @@
-#Code Book
-##Johns Hopkins Bloomberg School of Public Health
-##Data Science Specialization
-##Course: Getting and Cleaning Data
-##Assignment: Course Project
+##Code Book
+####Johns Hopkins Bloomberg School of Public Health
+####Data Science Specialization
+####Course: Getting and Cleaning Data
+####Assignment: Course Project
 
 
 ##Variables
@@ -12,7 +12,7 @@
 
 activity  
 
-&nbsp;&nbsp;&nbsp;Type of activity performed on each observation  
+&nbsp;&nbsp;&nbsp;Type of activity performed on each observation.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. WALKING  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. WALKING_UPSTAIRS  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. WALKING_DOWNSTAIRS  
@@ -22,7 +22,7 @@ activity
 
 subject  
 
-&nbsp;&nbsp;&nbsp;Person who were volunteers to the experiment and performed one activity on each observation.  
+&nbsp;&nbsp;&nbsp;Volunteers to the experiment which perform the activities.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1..30 .Unique identifiers assigned to the volunteers.  
 			
 #####Measurement variables:

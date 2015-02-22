@@ -1,13 +1,14 @@
-#Johns Hopkins Bloomberg School of Public Health
-#Data Science Specialization
-#Course: Getting and Cleaning Data
-#Course Project Code Book
+#Code Book
+##Johns Hopkins Bloomberg School of Public Health
+##Data Science Specialization
+##Course: Getting and Cleaning Data
+##Assignment: Course Project
 
 
 ##Variables
 
 
-###Identifier variables:
+######Identifier variables:
 
 activity  
         Type of activity performed on each observation  
@@ -19,10 +20,11 @@ activity
         6. LAYING			
 
 subject
-        Person who were volunteers to the experiment and performed one activity on each observation.
-        1..30 .Unique identifiers assigned to the volunteers.
+        Person who were volunteers to the experiment and performed one activity on each observation.  
+        1..30 .Unique identifiers assigned to the volunteers.  
 			
-###Measurement variables:			
+######Measurement variables:
+		
         Measurements (features) from Samsung Galaxy S II embedded   accelerometer and gyroscope.  
         The values are normalized and bounded within [-1,1].  
         Each variable represents the mean value of the original measurements.  

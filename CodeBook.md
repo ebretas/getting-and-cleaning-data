@@ -11,6 +11,7 @@
 #####Identifier variables:
 
 activity  
+
 &nbsp;&nbsp;&nbsp;Type of activity performed on each observation  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. WALKING  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. WALKING_UPSTAIRS  
@@ -20,6 +21,7 @@ activity
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6. LAYING  
 
 subject  
+
 &nbsp;&nbsp;&nbsp;Person who were volunteers to the experiment and performed one activity on each observation.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1..30 .Unique identifiers assigned to the volunteers.  
 			

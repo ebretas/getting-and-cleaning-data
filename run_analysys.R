@@ -1,5 +1,20 @@
+#--------------------------------------------------------------------------
+'
+Johns Hopkins Bloomberg School of Public Health
 
+Data Science Specialization
 
+Course: Getting and Cleaning Data
+
+Assignment: Course Project
+
+Author: Ernani Bretas
+Date: 22-FEBRUARY-2015
+
+'
+#--------------------------------------------------------------------------
+
+# Package has melt() and dcast().
 library(reshape2)
 
 
@@ -12,28 +27,28 @@ library(reshape2)
 #---> Read the input files.
 
 # Read the training set.
-X_train <- read.table("./train/X_train.txt")
+X_train <- read.table("./UCI HAR Dataset/train/X_train.txt")
 
 # Read the training labels.
-y_train <- read.table("./train/y_train.txt")
+y_train <- read.table("./UCI HAR Dataset/train/y_train.txt")
 
 # Read the subject_train. Relates the subject with the observation. Its range is from 1 to 30.  
-subject_train <- read.table("./train/subject_train.txt")
+subject_train <- read.table("./UCI HAR Dataset/train/subject_train.txt")
 
 # Read the test set.
-X_test <- read.table("./test/X_test.txt")
+X_test <- read.table("./UCI HAR Dataset/test/X_test.txt")
 
 # Read the test labels.
-y_test <- read.table("./test/y_test.txt")
+y_test <- read.table("./UCI HAR Dataset/test/y_test.txt")
 
 # Read the subject_test. Relates the subject with the observation. Its range is from 1 to 30.  
-subject_test <- read.table("./test/subject_test.txt")
+subject_test <- read.table("./UCI HAR Dataset/test/subject_test.txt")
 
 # Read the features names. These are the names of the variables in the training and test sets.
-features <- read.table("features.txt")
+features <- read.table("./UCI HAR Dataset/features.txt")
 
 # Read the activity lables
-activity_labels <- read.table("activity_labels.txt")
+activity_labels <- read.table("./UCI HAR Dataset/activity_labels.txt")
 
 
 #---> Add the activity variable to the train and test sets.

@@ -8,22 +8,27 @@
 ##Variables
 
 
-######Identifier variables:
+#####Identifier variables:
 
 activity  
-        Type of activity performed on each observation  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp1. WALKING  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp2. WALKING_UPSTAIRS  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp3. WALKING_DOWNSTAIRS  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp4. SITTING  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp5. STANDING  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp6. LAYING  
+&nbsp;&nbsp;&nbsp;Type of activity performed on each observation  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. WALKING  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. WALKING_UPSTAIRS  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. WALKING_DOWNSTAIRS  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. SITTING  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. STANDING  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6. LAYING  
 
 subject  
-        Person who were volunteers to the experiment and performed one activity on each observation.  
-        1..30 .Unique identifiers assigned to the volunteers.  
+&nbsp;&nbsp;&nbsp;Person who were volunteers to the experiment and performed one activity on each observation.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1..30 .Unique identifiers assigned to the volunteers.  
 			
-######Measurement variables:
+#####Measurement variables:
+
+&nbsp;&nbsp;&nbsp;Measurements (features) from Samsung Galaxy S II embedded   accelerometer and gyroscope.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The values are normalized and bounded within [-1,1].  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Each variable represents the mean value of the original measurements.  
+
 tBodyAcc-mean()-X          
 tBodyAcc-mean()-Y          
 tBodyAcc-mean()-Z          
